@@ -30,7 +30,7 @@ int main() {
             printf("\nInforme a distancia em km (maior que 0): ");
             scanf("%f", &distancia);
             if (distancia <= 0) {
-                printf("[ERRO] A distancia deve ser maior que zero. Tente novamente.\n");
+                printf("[ERRO] Distancia invalida. Informe um valor maior que zero.\n");
             }
         } while (distancia <= 0);
 
