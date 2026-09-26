@@ -66,6 +66,7 @@ int main() {
             }
         } while (tentativas < 0);
 
+        // Peso e modalidade sao calculados separadamente sobre o mesmo subtotal inicial        
         float valor_base = calcular_valor_base(distancia);
         float subtotal_inicial = valor_base + (distancia * VALOR_TAXA_KM);
         float adicional_peso = calcular_adicional_peso(subtotal_inicial, peso);
